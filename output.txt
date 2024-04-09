@@ -1,0 +1,124 @@
+ ----------------------------------------------------------------
+ APMonitor, Version 1.0.1
+ APMonitor Optimization Suite
+ ----------------------------------------------------------------
+
+
+ --------- APM Model Size ------------
+ Each time step contains
+   Objects      :          250
+   Constants    :            0
+   Variables    :         4263
+   Intermediates:         1042
+   Connections  :          500
+   Equations    :         4046
+   Residuals    :         3004
+
+ Number of state variables:           4263
+ Number of total equations: -         3253
+ Number of slack variables: -         2003
+ ---------------------------------------
+ Degrees of freedom       :           -993
+
+ * Warning: DOF <= 0
+ ----------------------------------------------
+ Steady State Optimization with APOPT Solver
+ ----------------------------------------------
+Iter:     1 I:  0 Tm:     20.48 NLPi:   10 Dpth:    0 Lvs:    3 Obj: -1.08E+00 Gap:       NaN
+Iter:     2 I: -1 Tm:      5.11 NLPi:    6 Dpth:    1 Lvs:    2 Obj: -1.08E+00 Gap:       NaN
+Iter:     3 I:  0 Tm:      8.20 NLPi:   13 Dpth:    1 Lvs:    4 Obj: -1.08E+00 Gap:       NaN
+Iter:     4 I: -1 Tm:      1.84 NLPi:    2 Dpth:    2 Lvs:    3 Obj: -1.08E+00 Gap:       NaN
+Iter:     5 I:  0 Tm:      3.52 NLPi:    4 Dpth:    2 Lvs:    5 Obj: -1.08E+00 Gap:       NaN
+Iter:     6 I: -1 Tm:      1.65 NLPi:    2 Dpth:    3 Lvs:    4 Obj: -1.08E+00 Gap:       NaN
+Iter:     7 I:  0 Tm:      9.32 NLPi:   14 Dpth:    3 Lvs:    6 Obj: -1.08E+00 Gap:       NaN
+Iter:     8 I: -1 Tm:      2.08 NLPi:    3 Dpth:    4 Lvs:    5 Obj: -1.08E+00 Gap:       NaN
+Iter:     9 I:  0 Tm:     10.33 NLPi:   16 Dpth:    4 Lvs:    7 Obj: -1.08E+00 Gap:       NaN
+Iter:    10 I: -1 Tm:      1.77 NLPi:    2 Dpth:    5 Lvs:    6 Obj: -1.08E+00 Gap:       NaN
+Iter:    11 I:  0 Tm:      9.81 NLPi:   14 Dpth:    5 Lvs:    8 Obj: -1.08E+00 Gap:       NaN
+Iter:    12 I: -1 Tm:      1.75 NLPi:    4 Dpth:    6 Lvs:    7 Obj: -1.08E+00 Gap:       NaN
+Iter:    13 I: -9 Tm:     17.77 NLPi:   21 Dpth:    6 Lvs:    6 Obj: -1.08E+00 Gap:       NaN
+Iter:    14 I:  0 Tm:      2.73 NLPi:    6 Dpth:    6 Lvs:    8 Obj: -1.08E+00 Gap:       NaN
+Iter:    15 I: -1 Tm:      2.08 NLPi:    4 Dpth:    7 Lvs:    7 Obj: -1.08E+00 Gap:       NaN
+Iter:    16 I: -9 Tm:     11.72 NLPi:   21 Dpth:    7 Lvs:    6 Obj: -1.08E+00 Gap:       NaN
+Iter:    17 I:  0 Tm:      2.58 NLPi:    7 Dpth:    7 Lvs:    8 Obj: -1.08E+00 Gap:       NaN
+Iter:    18 I: -1 Tm:      2.23 NLPi:    4 Dpth:    8 Lvs:    7 Obj: -1.08E+00 Gap:       NaN
+Iter:    19 I:  0 Tm:      2.42 NLPi:    3 Dpth:    8 Lvs:    9 Obj: -1.07E+00 Gap:       NaN
+Iter:    20 I: -1 Tm:      1.91 NLPi:    4 Dpth:    9 Lvs:    8 Obj: -1.07E+00 Gap:       NaN
+Iter:    21 I: -9 Tm:     17.43 NLPi:   22 Dpth:    9 Lvs:    7 Obj: -1.07E+00 Gap:       NaN
+Iter:    22 I:  0 Tm:      3.81 NLPi:    6 Dpth:    9 Lvs:    8 Obj: -1.07E+00 Gap:       NaN
+Iter:    23 I: -9 Tm:     19.03 NLPi:   23 Dpth:   10 Lvs:    7 Obj: -1.07E+00 Gap:       NaN
+--Integer Solution:  -1.07E+00 Lowest Leaf:  -1.08E+00 Gap:   6.31E-03
+Iter:    24 I:  0 Tm:      2.67 NLPi:    5 Dpth:   10 Lvs:    7 Obj: -1.07E+00 Gap:  6.31E-03
+ Successful solution
+
+ ---------------------------------------------------
+ Solver         :  APOPT (v1.0)
+ Solution time  :    162.295499999993      sec
+ Objective      :   -1.07029801435098
+ Successful solution
+ ---------------------------------------------------
+
+Predicted Dose: [[-0.73959563583], [-0.76076644987], [-0.80514191711], [-0.85111151292], [-0.88852136809], [-0.92762721351], [-0.96225140545], [-1.0041140784], [-1.0326167676], [-1.0702980144]]
+Variables Final Values:
+
+Material Code : 0.0
+Density : 0.58549222798
+Density Nave : 0.58549222798
+True Radius (m) : 1.117717609517792
+Radius (m) : 0.10000000178954904
+Mass (kg) : -0.8940058831582466
+LogXSgamABe6Nave : 0.80535733048
+LogXSgamABe7Nave : 0.7419369042
+LogXSgamPROe-2Nave : 0.9999999999
+LogXSgamPROe-1Nave : 1.0
+LogXSgamPROe4Nave : 1.0000000001
+LogXSgamPROe5Nave : 0.0
+LogXSgamPROe7Nave : 0.81725208302
+LogXSalphaPROe-2Nave : -0.008
+LogXSalphaPROe-1Nave : -0.008
+LogXSalphaPROe4Nave : -0.008
+LogXSalphaPROe5Nave : -0.008
+LogXSalphaPROe6Nave : -0.008
+LogXSalphaPROe7Nave : 0.83345808256
+LogXSelasticE-2Nave : 0.57531896721
+LogXSelasticE-1Nave : 0.66074341868
+LogXSelasticE4Nave : 0.69586755785
+LogXSelasticE5Nave : 1.0
+LogXSelasticE6Nave : 1.0000000002
+LogXSelasticE7Nave : -0.64942996688
+LogPeakElasticNave : 0.41330312844
+LogPeakAlphaNave : 1.0
+Variables Final Values:
+
+Material Code : 1.0
+Density : 0.12953367876
+Density Nave : 0.12953367876
+True Radius (m) : 1.179061886035584
+Radius (m) : 0.20000000357909808
+Mass (kg) : -0.22686936095565416
+LogXSgamABe6Nave : 0.96619179241
+LogXSgamABe7Nave : 0.99996445903
+LogXSgamPROe-2Nave : 0.12022175741
+LogXSgamPROe-1Nave : 0.19897000434
+LogXSgamPROe4Nave : 0.59585748732
+LogXSgamPROe5Nave : 0.75745468801
+LogXSgamPROe7Nave : 0.98727704166
+LogXSalphaPROe-2Nave : -0.0036812412374
+LogXSalphaPROe-1Nave : -0.0032041199827
+LogXSalphaPROe4Nave : -0.00050514997832
+LogXSalphaPROe5Nave : 9.6910013008e-05
+LogXSalphaPROe6Nave : 0.00079588001734
+LogXSalphaPROe7Nave : 0.21982602993
+LogXSelasticE-2Nave : 0.26358636028
+LogXSelasticE-1Nave : 0.26957914063
+LogXSelasticE4Nave : 0.29250869479
+LogXSelasticE5Nave : 0.27245897116
+LogXSelasticE6Nave : 0.31728067434
+LogXSelasticE7Nave : 0.17764110624
+LogPeakElasticNave : 0.41848549966
+LogPeakAlphaNave : -0.73329378182
+
+Total Volume: 5.1570776334757555 m^3
+Total Mass: 193032.0 kg
+Total Cost: $ 1203677.42
+Final Material Variables: [[0.0], [1.0], [1.0], [1.0], [3.0], [0.0], [0.0], [1.0], [3.0], [1.0]]
